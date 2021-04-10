@@ -1,3 +1,4 @@
+#https://inf-ege.sdamgia.ru/problem?id=27853
 def get_div(n):
     d = [1]
     for i in range(2, n // 2+1):
