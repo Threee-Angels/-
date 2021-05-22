@@ -4,9 +4,8 @@ def get_div(n):
     d =[]
     for i in range(1, int(sqrt(n))+1):
         if n % i ==0:
-            if i % 2 ==0:
-                d.append(i)
-            if n // i % 2 == 0:
+            d.append(i)
+            if i != n// i:
                 d.append(n//i)
     d.sort()
     return d
