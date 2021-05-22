@@ -1,6 +1,6 @@
-s = '15>42>22>242>24242424>'
-ans = 0
+s = input()
+k = 0
 for el in s:
-    if el != '>':
-        ans += int(el)
-print(ans)
+    if el.isdigit():
+        k += int(el)
+print(k)
