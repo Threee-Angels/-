@@ -1,4 +1,5 @@
 # https://kpolyakov.spb.ru/school/ege/gen.php?action=viewVar&answers=on&varId=11
+# если условие задачи про исключение двух подряд букв в слове
 l = ('А', 'Б', 'А', 'К')
 k = 0
 ans = set()
