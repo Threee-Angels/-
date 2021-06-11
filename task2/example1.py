@@ -2,7 +2,7 @@
 # задание 2
 
 def F(x, y, z, w):
-    return int((x and (not y)) or (y == z) or w)
+    return ((x and (not y)) or (y == z) or w)
 
 p = [0, 1]
 for x in p:
