@@ -1,10 +1,12 @@
 # https://inf-ege.sdamgia.ru/problem?id=27857
+from math import sqrt
 def get_div(n):
     p = []
-    for i in range(1, n //2 + 1):
+    for i in range(1, int(sqrt(n))+1):
         if n % i == 0:
             p.append(i)
-    p.append(n)
+            if i != n // i:
+                p.append(n // i)
     return len(p)
 
 max_k = 0
